@@ -1,0 +1,29 @@
+{
+  "locations":[
+    {
+      "type":"work",
+      "name":"infosys",
+      "latlng": [35.918751, -78.777300]
+    },
+    {
+      "type":"residence",
+      "name":"former-residence",
+      "latlng": [35.889768, -78.694771]
+    },
+    {
+      "type":"residence",
+      "name":"current-residence",
+      "latlng": [35.910980, -78.773519]
+    },
+    {
+      "type":"residence",
+      "name":"former-residence-houston",
+      "latlng": [29.757440, -95.637443]
+    },
+    {
+      "type":"work",
+      "name":"amex",
+      "latlng": [33.657945, -111.963226]
+    }
+  ]
+}
