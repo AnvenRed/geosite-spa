@@ -5,9 +5,13 @@ Geosite - SPA Coding Task
 Done using or with reference to:
 
   https://github.com/leighhalliday/mapbox-react-demo
+
   https://github.com/trendmicro-frontend/react-sidenav
+
   https://github.com/uber/react-map-gl
+
   https://github.com/uber/deck.gl
+  
   https://github.com/FortAwesome/react-fontawesome
 
 Starting this Project requires a MapBox API Access Token placed in an .env.local file
