@@ -175,15 +175,14 @@ class Map extends Component {
       <ReactMapGL
         ref={this.mapRef}
         {...this.state.viewport}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
-        mapStyle="mapbox://styles/avpillutla/ck0y1mbo6000k1cpw7zvt8694"
+        mapboxApiAccessToken={"pk.eyJ1IjoiYXZwaWxsdXRsYSIsImEiOiJjazB4enlnaWgwYmZxM2JtaXE4dGViMDVqIn0.zro-GAN4TlcsBK1UGZ8G0g"}
+        mapStyle="mapbox://styles/avpillutla/ck0y1onbl00241cln5vzx80k1"
         onViewportChange={(viewport) => this.setState({viewport})}
       >
         <Geocoder
             mapRef={this.mapRef}
             onViewportChange={this.handleGeocoderViewportChange}
-            onResult={this.handleOnResult}
-            mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
+            mapboxApiAccessToken={"pk.eyJ1IjoiYXZwaWxsdXRsYSIsImEiOiJjazB4enlnaWgwYmZxM2JtaXE4dGViMDVqIn0.zro-GAN4TlcsBK1UGZ8G0g"}
             position="top-right"
         />
         <div className="nav" style={styles.navigation}>
