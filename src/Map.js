@@ -176,7 +176,7 @@ class Map extends Component {
         ref={this.mapRef}
         {...this.state.viewport}
         mapboxApiAccessToken={"pk.eyJ1IjoiYXZwaWxsdXRsYSIsImEiOiJjazB4enlnaWgwYmZxM2JtaXE4dGViMDVqIn0.zro-GAN4TlcsBK1UGZ8G0g"}
-        mapStyle="mapbox://styles/avpillutla/ck0y1onbl00241cln5vzx80k1"
+        mapStyle="mapbox://styles/avpillutla/ck0y1mbo6000k1cpw7zvt8694"
         onViewportChange={(viewport) => this.setState({viewport})}
       >
         <Geocoder
